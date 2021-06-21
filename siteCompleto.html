@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .tm-social {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+    <title>Site Bootstrap</title>
+</head>
+
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navegar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#FundWeb">Fundamentos Web</a>
+                        <a class="dropdown-item" href="#video">Vídeo</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#formulario">Formulário</a>
+                      </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!--/NavBar-->
+
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100"
+                    src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/03/O-que-e-CSS-Aprenda-sobre-CSS-com-este-Guia-Basico-1280x720.png"
+                    alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://i.ytimg.com/vi/mw8KEB0FzbU/maxresdefault.jpg"
+                    alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/03/JavascriptCapa-1280x720.jpg"
+                    alt="Terceiro Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <!--/Carousel-->
+
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid bg-info" id= "FundWeb">
+        <div class="container">
+            <h1 class="display-4">Fundamentos Web</h1>
+            <p class="lead">A base da programação Front-End é o tripé: HTML + CSS + Javascript.
+                Estas três linguagens de programação se completam e juntas elas trabalham de forma uniforme, como se fossem um ser humano perfeito.</p>
+        </div>
+    </div>
+    <!--/Jumbotron-->
+
+    <!--Cards-->
+    <div class="container">
+        <div class="card-columns">
+            <div class="card">
+                <img class="card-img-top" src="https://devporai.com.br/wp-content/uploads/2020/09/html5.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">HTML: Linguagem de Marcação de Hipertexto</h5>
+                    <p class="card-text">HTML é a sigla para Hyper Text Markup Language, ou seja, linguagem de marcação de hipertexto. 
+                        Ela é utilizada como marcação para desenvolver páginas e documentos eletrônicos para a internet.
+                        Isso significa que ela garante a formatação ideal para sites. Porém, não pense que existe apenas esta linguagem de programação. Há muitas outras, mas a HTML marca em hipertexto, criando uma estrutura básica. 
+                        A CSS, por exemplo, é a responsável por formar o estilo das páginas, como formatações de cores e formas.</p>
+                        <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+        
+            <div class="card">
+                <img class="card-img-top" src="https://rehansaeed.com/images/hero/CSS-1600x900.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Entenda o que é CSS</h5>
+                    <p class="card-text">CSS é a sigla para Cascading Style Sheets, ou seja, Folhas de Estilo em Cascatas.
+                        É uma maneira de dar estilo ao código criado por linguagens como HTML, XML ou XHTML, por exemplo. De forma prática, ela funciona como uma camada de personalização ao conteúdo visível.
+                        Estes tipos de linguagem citados foram idealizados para serem funcionais e, por serem de marcação, precisaram ser aperfeiçoados.
+                        O CSS, no caso, veio como uma boa solução para aprimorar a estética dos sites.
+                        Por meio dele, é possível separar formatos de conteúdos, bem como definir como serão exibidos em cada página.</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>          
+            <div class="card">
+                <img class="card-img" src="https://brasilcode.com.br/wp-content/uploads/2020/05/JavaScript_-1024x427.png" alt="Imagem do card">
+                <div class="card-body">
+                    <h5 class="card-title">O que é JavaScript?</h5>
+                    <p class="card-text">JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. — você pode apostar que o JavaScript provavelmente está envolvido. 
+                        É a terceira camada do bolo das tecnologias padrões da web, duas das quais (HTML e CSS) nós falamos com muito mais detalhes em outras partes da Área de Aprendizado.</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--/Cards-->
+        <!--Texto e Video-->
+
+        <div class="row mt-5 mb-5" id="video">
+            <div class="col-md-6">
+                <h3>Bordas decoradas-@Curso em Vídeo HTML5 e CSS3</h3>
+                <p>Você sabe como personalizar a borda de uma caixa usando uma imagem PNG? Sabe como configurar as propriedades border-image-source, border-image-slice e bordei-image-repeat? 
+                    Pois acompanhe este vídeo até o final para responder a estas e muitas outras perguntas.
+                </p>
+                <p>O Curso de HTML5 e CSS3 vai ensinar a criar sites usando a linguagem de marcação hipertexto (HTML) e  folhas de estilo em cascata (CSS), todas em suas versões mais recentes.
+                    Neste curso, o Professor Gustavo Guanabara criou um conjunto de vídeos, exercícios, desafios e um material de apoio em forma de e-book com 30 capítulos ao todo. </p>
+            </div>
+
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/n0rjAs_Im4w"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!--/Texto e Video-->
+
+        <!--Formulário de Contato-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="text-center">
+                    Entre em contato com a gente
+                </h4>
+            </div>
+        </div>
+        <div class="row" id= "formulario">
+            <div class="col-md-6">
+                <form>
+                    <label for="nome">Nome:</label> <br>
+                    <input type="text" id="nome" onkeyup="validaNome()">
+                    <div id="txtNome"></div>
+                    <br>
+                    <label for="email">e-mail:</label> <br>
+                    <input type="email" id="email" onkeyup="validaEmail()">
+                    <div id="txtEmail"></div>
+                    <br>
+                    <label for="assunto">Assunto:</label> <br>
+                    <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                    <div id="txtAssunto"></div>
+                    <br>
+                    <button onclick="enviar()" >Enviar</button>
+                </form>
+
+            </div>
+            <div class="col-md-6">
+                <p>45-1 Harajuku, Hidaka, Saitama 350-1205</p>
+                <p>Japão</p>
+
+                <iframe class="w-100"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5435.205570847382!2d139.34187961175547!3d35.903095695283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60192845d5006935%3A0x8111abef7801e53c!2z77yI5pyJ77yJ5qCX44GT44G-5aiY5pys6IiXIOS6gOWxiw!5e0!3m2!1spt-BR!2sbr!4v1623879209265!5m2!1spt-BR!2sbr"
+                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
+            </div>
+        </div>
+
+        <!--/Formulário de Contato-->
+
+        <!--Rodapé-->
+        <hr>
+        <footer>
+
+            <div class="row mb-3">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <a href="https://www.instagram.com/" target="_blank" class="p-3">
+                        <img class="tm-social" src="../Landinge-Page-Bootstrap/assets/img/instagram.png" alt="Logo do Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/karolina-queiroz-b4635a212/" target="_blank" class="p-3">
+                        <img class="tm-social" src="../Landinge-Page-Bootstrap/assets/img/linkedin.png" alt="Logo do Linkedin">
+                    </a>
+                    <a href="https://br.pinterest.com/" target="_blank" class="p-3">
+                        <img class="tm-social" src="../Landinge-Page-Bootstrap/assets/img/pinterest.png" alt="Logo do Pinterest">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">
+                        Todos os direitos reservados: Karolina Queiroz &copy
+                    </p>
+                </div>
+            </div>
+
+
+        </footer>
+        <!--/Rodapé-->
+
+    </div>
+
+
+
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+        <script src="../Landinge-Page-Bootstrap/assets/js/script.js"></script>
+</body>
+
+</html>
