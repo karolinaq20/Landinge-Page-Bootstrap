@@ -16,11 +16,12 @@
         }
     </style>
     <title>Site Bootstrap</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <a class="navbar-brand" href="#">Navegar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -50,7 +51,7 @@
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
         </div>
     </nav>
@@ -93,7 +94,7 @@
     <!--Jumbotron-->
     <div class="jumbotron jumbotron-fluid bg-info" id= "FundWeb">
         <div class="container">
-            <h1 class="display-4">Fundamentos Web</h1>
+            <h1 class="display-4 font-italic font-weight-bold">Fundamentos Web</h1>
             <p class="lead">A base da programação Front-End é o tripé: HTML + CSS + Javascript.
                 Estas três linguagens de programação se completam e juntas elas trabalham de forma uniforme, como se fossem um ser humano perfeito.</p>
         </div>
@@ -186,7 +187,7 @@
                     <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
                     <div id="txtAssunto"></div>
                     <br>
-                    <button onclick="enviar()" >Enviar</button>
+                    <button class="btn btn-outline-dark my-2 my-sm-0" onclick="enviar()" >Enviar</button>
                 </form>
 
             </div>
